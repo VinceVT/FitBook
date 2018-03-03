@@ -3,12 +3,13 @@
 	width: 100%; 
 	overflow: hidden;
     margin: auto;
+    display: none;
 
 }
 
-/*SIDEBAR*/
+/*LEFT SIDEBAR*/
 
-.sidebar {
+.leftbar {
 	margin-top: 40px;
 	margin-left: 40px;
 	float: right;
@@ -28,9 +29,8 @@
 
 .menu {
 	font-family: "Source Sans Pro", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: bold;
-	font-size: 12px;
-	color:black;
+	font-size: 20px;
+	color: black;
     display: block;
     letter-spacing: 1px;
     margin:5px;
@@ -55,10 +55,11 @@
 }
 
 /*IMAGE GRID*/
-.products{
+.feed{
 	margin-top: 40px;
 	margin-left:250px;
-	align-content: center;	
+	align-content: center;
+	background-color: #F8F8F8;
 }
 
 .row {
@@ -71,9 +72,9 @@
 
 /* Create four equal columns that sits next to each other */
 .column {
-    -ms-flex: 33%; /* IE10 */
-    flex: 33%;
-    max-width: 33%;
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
     padding: 0 4px;
 }
 
@@ -100,3 +101,9 @@
         max-width: 100%;
     }
 }
+
+/*RIGHT SIDEBAR*/
+.rightbar {
+
+}
+
