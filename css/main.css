@@ -1,4 +1,102 @@
 
-html {
+.wrapper {
+	width: 100%; 
+	overflow: hidden;
+    margin: auto;
 
+}
+
+/*SIDEBAR*/
+
+.sidebar {
+	margin-top: 40px;
+	margin-left: 40px;
+	float: right;
+	width: 250px;
+	position: fixed;
+}
+
+.box { 
+	border: 1px solid #ababab;
+	width: 170px;
+	margin-left: 0px;
+	margin-top: 15px;
+	padding-left: 0px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.menu {
+	font-family: "Source Sans Pro", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color:black;
+    display: block;
+    letter-spacing: 1px;
+    margin:5px;
+}
+
+.menu:hover {
+	color:black;
+	text-decoration: none;
+}
+
+
+#tsa-logo {
+	width: 140px;
+}
+
+.social-logo {
+    display:inline-block;
+    width: 25px;
+    margin-left: 5px; 
+    margin-top: 5px;
+	margin-bottom: 5px;     
+}
+
+/*IMAGE GRID*/
+.products{
+	margin-top: 40px;
+	margin-left:250px;
+	align-content: center;	
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 33%; /* IE10 */
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin:25px;
+    vertical-align: middle;
+    width: 90%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
 }
