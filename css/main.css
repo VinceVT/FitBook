@@ -1,4 +1,16 @@
 
+/*TOP NAVIGATION BAR*/
+.topbar {
+	height: 80px;
+	width: 100%;
+	margin-top: 0;
+	position: relative;
+	background-color: white;
+	border-bottom: 1px solid lightgrey;
+}
+
+#logo
+
 .wrapper {
 	width: 100%; 
 	overflow: hidden;
@@ -10,56 +22,18 @@
 /*LEFT SIDEBAR*/
 
 .leftbar {
-	margin-top: 40px;
-	margin-left: 40px;
 	float: right;
 	width: 250px;
 	position: fixed;
-}
-
-.box { 
-	border: 1px solid #ababab;
-	width: 170px;
-	margin-left: 0px;
-	margin-top: 15px;
-	padding-left: 0px;
-	padding-top:5px;
-	padding-bottom:5px;
-}
-
-.menu {
-	font-family: "Source Sans Pro", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-size: 20px;
-	color: black;
-    display: block;
-    letter-spacing: 1px;
-    margin:5px;
-}
-
-.menu:hover {
-	color:black;
-	text-decoration: none;
-}
-
-
-#tsa-logo {
-	width: 140px;
-}
-
-.social-logo {
-    display:inline-block;
-    width: 25px;
-    margin-left: 5px; 
-    margin-top: 5px;
-	margin-bottom: 5px;     
+	background-color: #37FFE6;
 }
 
 /*IMAGE GRID*/
 .feed{
-	margin-top: 40px;
 	margin-left:250px;
 	align-content: center;
 	background-color: #F8F8F8;
+	width: 60%;
 }
 
 .row {
@@ -67,7 +41,7 @@
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -75,13 +49,21 @@
     -ms-flex: 100%; /* IE10 */
     flex: 100%;
     max-width: 100%;
-    padding: 0 4px;
+    padding: 0;
+    position: relative;
 }
 
-.column img {
-    margin:25px;
+.post {
+	margin-top: 60px;
+	margin-left: 10%;
+	border: 1px solid darkgrey;
+	width: 80%;
+	position: relative;
+}
+
+.image {
     vertical-align: middle;
-    width: 90%;
+    width: 100%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
