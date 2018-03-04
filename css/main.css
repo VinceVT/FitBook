@@ -1,7 +1,7 @@
 
 /*TOP NAVIGATION BAR*/
 .topbar {
-	height: 80px;
+	height: 100px;
 	width: 100%;
 	margin-top: 0;
 	position: relative;
@@ -9,7 +9,28 @@
 	border-bottom: 1px solid lightgrey;
 }
 
-#logo
+.topbar img {
+	height: 60px; 
+	margin: 20px;
+	margin-left: 30px;
+	margin-right: 0;
+	position: relative
+}
+
+.topbar h1 {
+	position: relative;
+	display: inline; 
+	font-size: 37.5px;
+	margin-left: 0;
+	top: 10px;
+}
+
+#searchbar {
+	position: relative;
+	margin-left: 27.5%;
+	width: 200px;
+}
+
 
 .wrapper {
 	width: 100%; 
@@ -34,6 +55,8 @@
 	align-content: center;
 	background-color: #F8F8F8;
 	width: 60%;
+	padding: 5%;
+	padding-top: 0;
 }
 
 .row {
@@ -55,15 +78,16 @@
 
 .post {
 	margin-top: 60px;
-	margin-left: 10%;
+	margin-left: 5%;
 	border: 1px solid darkgrey;
-	width: 80%;
+	width: 90%;
 	position: relative;
 }
 
 .image {
     vertical-align: middle;
     width: 100%;
+    box-shadow: 2px 2px 2.5px #A6A6A6
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
